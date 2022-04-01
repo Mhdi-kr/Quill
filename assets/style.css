@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background: #f8f9fa;
+    color: #212529;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        margin: 0;
+        height: 100%;
+        background: #212529;
+        color: #f8f9fa;
+    }
+}
+
+@font-face {
+    font-family: virgil;
+    src: url("Virgil.woff2");
+}
+
+.ql-editor {
+    font-family: virgil !important;
+    font-size: 1em !important;
+}
+
+#quill-container {
+    height: auto;
+    min-height: 100%;
+    padding: 1rem;
+}
+
+#quill-container .ql-editor {
+    overflow-y: visible;
+}
+
+#scrolling-container {
+    height: 100%;
+    min-height: 100%;
+    overflow-y: auto;
+}
