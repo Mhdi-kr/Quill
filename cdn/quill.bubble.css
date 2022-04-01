@@ -386,7 +386,6 @@
     text-align: right;
   }
   .ql-editor.ql-blank::before {
-    color: rgba(0,0,0,0.6);
     content: attr(data-placeholder);
     font-style: italic;
     left: 32px;
