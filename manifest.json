@@ -2,12 +2,12 @@
     "name": "Quill",
     "short_name": "Quill",
     "lang": "en-US",
-    "start_url": "/quill",
+    "start_url": "/Quill",
     "display": "fullscreen",
     "theme_color": "f8f9fa",
     "icons": [
         {
-            "src": "/quill/assets/icons/192.png",
+            "src": "/Quill/assets/icons/192.png",
             "sizes": "192x192",
             "type": "image/png"
         }
